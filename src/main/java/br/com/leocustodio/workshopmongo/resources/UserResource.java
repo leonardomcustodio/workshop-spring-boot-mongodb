@@ -21,6 +21,7 @@ public class UserResource {
         List<User> list = new ArrayList<>();
         list.add(maria);
         list.add(alex);
+        list.add(maria);
         return ResponseEntity.ok().body(list);
     }
 }
